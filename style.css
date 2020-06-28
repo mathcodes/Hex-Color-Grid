@@ -8,7 +8,7 @@ body {
 .wrapper {
     align-content: center;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(60px, 60px));
+    grid-template-columns: repeat(auto-fit, minmax(90px, 120px));
     grid-gap: 2px;
     transform: perspective(20px) translateZ(3);
     padding-left: 4%;
@@ -20,7 +20,7 @@ html {
     background-position: 0 100%;
     background-repeat: repeat-x;
     color: #fff;
-    font-size: 6px;
+    font-size: 3px;
     border-radius: 15px;
 }
 
@@ -29,7 +29,7 @@ html {
     border-radius: 15px;
     padding: 5px;
     padding-top: 15px;
-    font-size: 6px;
+    font-size: 4px;
     /* font-weight: bolder; */
     /* width: 60px; */
     height: 60px;
